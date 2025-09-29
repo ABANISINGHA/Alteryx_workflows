@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Desktop\Alteryx\superstore_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>superstore_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Id" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Year_Birth" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Education" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Marital_Status" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Income" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Kidhome" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Teenhome" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Dt_Customer" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Recency" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntWines" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntFruits" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntMeatProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntFishProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntSweetProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntGoldProds" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumDealsPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumWebPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumCatalogPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumStorePurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumWebVisitsMonth" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Response" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Complain" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="222" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>Income</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-09-28 00:01:18</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2025-09-28 00:01:18</StartDate>
+              <EndDate>2025-09-28 00:01:18</EndDate>
+              <Operand>50000</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Income] &gt; "50000"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[MntWines] + [MntFruits] + [MntMeatProducts] + [MntFishProducts] + [MntSweetProducts] + [MntGoldProds]" field="TotalSpending" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TotalSpending = [MntWines] + [MntFruits] + [MntMeatProducts] + [MntFishProducts]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="558" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="AvgTotalSpending" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AvgTotalSpending - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="654" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>3</N>
+          <GroupFields orderChanged="False">
+            <Field name="AvgTotalSpending" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 3 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="786" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="462" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Education" action="GroupBy" rename="Education" />
+            <SummarizeField field="TotalSpending" action="Count" rename="AvgTotalSpending" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Superstore_Workflow3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="acb7bc7e-19cc-4bcc-9fdb-e3a098d8cd2e" />
+      <Telemetry>
+        <PreviousWorkflowId value="b66509a2-686f-4fae-bf4b-1cde00b5e37e" />
+        <OriginWorkflowId value="b66509a2-686f-4fae-bf4b-1cde00b5e37e" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
