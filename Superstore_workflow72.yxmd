@@ -1,0 +1,628 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Desktop\Alteryx\superstore_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>superstore_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Id" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Year_Birth" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Education" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Marital_Status" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Income" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Kidhome" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Teenhome" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Dt_Customer" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Recency" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntWines" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntFruits" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntMeatProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntFishProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntSweetProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntGoldProds" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumDealsPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumWebPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumCatalogPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumStorePurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumWebVisitsMonth" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Response" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Complain" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Desktop\Alteryx\superstore_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>superstore_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Id" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Year_Birth" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Education" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Marital_Status" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Income" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Kidhome" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Teenhome" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Dt_Customer" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Recency" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntWines" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntFruits" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntMeatProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntFishProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntSweetProducts" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="MntGoldProds" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumDealsPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumWebPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumCatalogPurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumStorePurchases" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="NumWebVisitsMonth" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Response" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+            <Field name="Complain" size="254" source="File: C:\Users\DELL\Desktop\Alteryx\superstore_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DataCleansePro.DataCleansePro">
+        <Position x="246" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RemoveNullRows value="False" />
+          <RemoveNullColumns value="False" />
+          <RemoveTabsLineBreaksAndDuplicates value="False" />
+          <RemoveLeadingAndTrailingWhitespace value="True" />
+          <RemoveAllWhitespaces value="False" />
+          <RemoveHTMLTags value="False" />
+          <RemoveInvisibleCharacters value="False" />
+          <Fields>
+            <Field value="Id" selected="False" />
+            <Field value="Year_Birth" selected="False" />
+            <Field value="Education" selected="True" />
+            <Field value="Marital_Status" selected="True" />
+            <Field value="Income" selected="False" />
+            <Field value="Kidhome" selected="False" />
+            <Field value="Teenhome" selected="False" />
+            <Field value="Dt_Customer" selected="False" />
+            <Field value="Recency" selected="False" />
+            <Field value="MntWines" selected="False" />
+            <Field value="MntFruits" selected="False" />
+            <Field value="MntMeatProducts" selected="False" />
+            <Field value="MntFishProducts" selected="False" />
+            <Field value="MntSweetProducts" selected="False" />
+            <Field value="MntGoldProds" selected="False" />
+            <Field value="NumDealsPurchases" selected="False" />
+            <Field value="NumWebPurchases" selected="False" />
+            <Field value="NumCatalogPurchases" selected="False" />
+            <Field value="NumStorePurchases" selected="False" />
+            <Field value="NumWebVisitsMonth" selected="False" />
+            <Field value="Response" selected="False" />
+            <Field value="Complain" selected="False" />
+            <Field value="*Unknown" selected="False" />
+          </Fields>
+          <RemoveLetters value="False" />
+          <RemoveNumbers value="False" />
+          <RemovePunctuation value="False" />
+          <Letters value="" />
+          <Numbers value="" />
+          <Punctuations value="" />
+          <Exceptions value="" />
+          <Checkbox_ReplaceStringColumns value="True" />
+          <Checkbox_ReplaceNumericColumns value="True" />
+          <radioButton_ReplaceNullwithBlanks value="True" />
+          <radioButton_ReplaceBlankswithNulls value="False" />
+          <radioButton_ReplaceNullwithZero value="True" />
+          <radioButton_ReplaceZerowithNulls value="False" />
+          <ReplaceWithBlanks value="True" />
+          <ReplaceWithZero value="True" />
+          <CheckBox_ModifyCase value="True" />
+          <ModifyCase value="upper" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDataCleanse" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="390" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Id" selected="True" />
+            <SelectField field="Year_Birth" selected="True" />
+            <SelectField field="Education" selected="True" />
+            <SelectField field="Marital_Status" selected="True" />
+            <SelectField field="Income" selected="True" />
+            <SelectField field="Kidhome" selected="True" />
+            <SelectField field="Teenhome" selected="True" />
+            <SelectField field="Dt_Customer" selected="True" />
+            <SelectField field="Recency" selected="True" />
+            <SelectField field="MntWines" selected="True" />
+            <SelectField field="MntFruits" selected="True" />
+            <SelectField field="MntMeatProducts" selected="True" />
+            <SelectField field="MntSweetProducts" selected="True" />
+            <SelectField field="MntGoldProds" selected="True" />
+            <SelectField field="NumDealsPurchases" selected="True" />
+            <SelectField field="NumCatalogPurchases" selected="True" />
+            <SelectField field="NumStorePurchases" selected="True" />
+            <SelectField field="NumWebVisitsMonth" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Recency" selected="False" />
+            <SelectField field="Response" selected="False" />
+            <SelectField field="Complain" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="366" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>First</Mode>
+          <N>1000</N>
+          <GroupFields orderChanged="False">
+            <Field name="Year_Birth" />
+          </GroupFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1000 rows</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="510" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Education" />
+            <Field field="Kidhome" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Education" />
+            <Field field="Teenhome" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_MntGoldProds" selected="False" input="Left_" />
+                <SelectField field="Right_Id" selected="True" rename="Right_Id" input="Right_" />
+                <SelectField field="Right_Year_Birth" selected="True" rename="Right_Year_Birth" input="Right_" />
+                <SelectField field="Right_Education" selected="True" rename="Right_Education" input="Right_" />
+                <SelectField field="Right_Marital_Status" selected="True" rename="Right_Marital_Status" input="Right_" />
+                <SelectField field="Right_Income" selected="True" rename="Right_Income" input="Right_" />
+                <SelectField field="Right_Kidhome" selected="True" rename="Right_Kidhome" input="Right_" />
+                <SelectField field="Right_Teenhome" selected="True" rename="Right_Teenhome" input="Right_" />
+                <SelectField field="Right_Dt_Customer" selected="True" rename="Right_Dt_Customer" input="Right_" />
+                <SelectField field="Right_MntWines" selected="False" rename="Right_MntWines" input="Right_" />
+                <SelectField field="Right_MntFruits" selected="True" rename="Right_MntFruits" input="Right_" />
+                <SelectField field="Right_MntMeatProducts" selected="True" rename="Right_MntMeatProducts" input="Right_" />
+                <SelectField field="Right_MntSweetProducts" selected="True" rename="Right_MntSweetProducts" input="Right_" />
+                <SelectField field="Right_MntGoldProds" selected="True" rename="Right_MntGoldProds" input="Right_" />
+                <SelectField field="Right_NumDealsPurchases" selected="True" rename="Right_NumDealsPurchases" input="Right_" />
+                <SelectField field="Right_NumCatalogPurchases" selected="False" rename="Right_NumCatalogPurchases" input="Right_" />
+                <SelectField field="Right_NumStorePurchases" selected="True" rename="Right_NumStorePurchases" input="Right_" />
+                <SelectField field="Right_NumWebVisitsMonth" selected="True" rename="Right_NumWebVisitsMonth" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="738" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_Id" selected="True" input="Target_" />
+                <SelectField field="Target_Education" selected="True" input="Target_" />
+                <SelectField field="Target_Marital_Status" selected="True" input="Target_" />
+                <SelectField field="Source_Id" selected="False" rename="Source_Id" input="Source_" />
+                <SelectField field="Source_Year_Birth" selected="True" rename="Source_Year_Birth" input="Source_" />
+                <SelectField field="Source_Education" selected="True" rename="Source_Education" input="Source_" />
+                <SelectField field="Source_Marital_Status" selected="False" rename="Source_Marital_Status" input="Source_" />
+                <SelectField field="Source_Income" selected="True" rename="Source_Income" input="Source_" />
+                <SelectField field="Source_Kidhome" selected="False" rename="Source_Kidhome" input="Source_" />
+                <SelectField field="Source_Teenhome" selected="False" rename="Source_Teenhome" input="Source_" />
+                <SelectField field="Source_Dt_Customer" selected="False" rename="Source_Dt_Customer" input="Source_" />
+                <SelectField field="Source_Recency" selected="False" rename="Source_Recency" input="Source_" />
+                <SelectField field="Source_MntWines" selected="False" rename="Source_MntWines" input="Source_" />
+                <SelectField field="Source_MntFruits" selected="False" rename="Source_MntFruits" input="Source_" />
+                <SelectField field="Source_MntMeatProducts" selected="False" rename="Source_MntMeatProducts" input="Source_" />
+                <SelectField field="Source_MntSweetProducts" selected="False" rename="Source_MntSweetProducts" input="Source_" />
+                <SelectField field="Source_MntGoldProds" selected="False" rename="Source_MntGoldProds" input="Source_" />
+                <SelectField field="Source_NumDealsPurchases" selected="False" rename="Source_NumDealsPurchases" input="Source_" />
+                <SelectField field="Source_NumCatalogPurchases" selected="False" rename="Source_NumCatalogPurchases" input="Source_" />
+                <SelectField field="Source_NumStorePurchases" selected="False" rename="Source_NumStorePurchases" input="Source_" />
+                <SelectField field="Source_NumWebVisitsMonth" selected="False" rename="Source_NumWebVisitsMonth" input="Source_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="546" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Income" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Income - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="810" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Source_Education" />
+            <Field field="Marital_Status" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Education" />
+            <Field field="Right_Marital_Status" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Id" selected="True" input="Left_" />
+                <SelectField field="Left_Education" selected="True" input="Left_" />
+                <SelectField field="Left_Marital_Status" selected="True" input="Left_" />
+                <SelectField field="Left_Source_Year_Birth" selected="True" input="Left_" />
+                <SelectField field="Left_Source_Education" selected="True" input="Left_" />
+                <SelectField field="Left_Source_Income" selected="True" input="Left_" />
+                <SelectField field="Right_Id" selected="True" rename="Right_Id" input="Right_" />
+                <SelectField field="Right_Year_Birth" selected="True" input="Right_" />
+                <SelectField field="Right_Education" selected="True" rename="Right_Education" input="Right_" />
+                <SelectField field="Right_Marital_Status" selected="True" rename="Right_Marital_Status" input="Right_" />
+                <SelectField field="Right_Income" selected="True" input="Right_" />
+                <SelectField field="Right_Kidhome" selected="True" input="Right_" />
+                <SelectField field="Right_Teenhome" selected="True" input="Right_" />
+                <SelectField field="Right_Dt_Customer" selected="True" input="Right_" />
+                <SelectField field="Right_MntWines" selected="True" input="Right_" />
+                <SelectField field="Right_MntFruits" selected="True" input="Right_" />
+                <SelectField field="Right_MntMeatProducts" selected="True" input="Right_" />
+                <SelectField field="Right_NumDealsPurchases" selected="True" input="Right_" />
+                <SelectField field="Right_NumCatalogPurchases" selected="True" input="Right_" />
+                <SelectField field="Right_NumStorePurchases" selected="True" input="Right_" />
+                <SelectField field="Right_Right_Id" selected="True" rename="Right_Right_Id" input="Right_" />
+                <SelectField field="Right_Right_Year_Birth" selected="True" rename="Right_Right_Year_Birth" input="Right_" />
+                <SelectField field="Right_Right_Education" selected="True" rename="Right_Right_Education" input="Right_" />
+                <SelectField field="Right_Right_Marital_Status" selected="True" rename="Right_Right_Marital_Status" input="Right_" />
+                <SelectField field="Right_Right_Income" selected="True" rename="Right_Right_Income" input="Right_" />
+                <SelectField field="Right_Right_Kidhome" selected="True" rename="Right_Right_Kidhome" input="Right_" />
+                <SelectField field="Right_Right_Teenhome" selected="True" rename="Right_Right_Teenhome" input="Right_" />
+                <SelectField field="Right_Right_Dt_Customer" selected="True" rename="Right_Right_Dt_Customer" input="Right_" />
+                <SelectField field="Right_Right_MntFruits" selected="True" rename="Right_Right_MntFruits" input="Right_" />
+                <SelectField field="Right_Right_MntMeatProducts" selected="True" rename="Right_Right_MntMeatProducts" input="Right_" />
+                <SelectField field="Right_MntFishProducts" selected="True" input="Right_" />
+                <SelectField field="Right_Right_MntSweetProducts" selected="True" input="Right_" />
+                <SelectField field="Right_Right_MntGoldProds" selected="True" rename="Right_Right_MntGoldProds" input="Right_" />
+                <SelectField field="Right_Right_NumDealsPurchases" selected="True" rename="Right_Right_NumDealsPurchases" input="Right_" />
+                <SelectField field="Right_NumWebPurchases" selected="True" input="Right_" />
+                <SelectField field="Right_Right_NumStorePurchases" selected="True" rename="Right_Right_NumStorePurchases" input="Right_" />
+                <SelectField field="Right_Right_NumWebVisitsMonth" selected="True" input="Right_" />
+                <SelectField field="Right_MntGoldProds" selected="True" input="Right_" />
+                <SelectField field="Right_Right_MntWines" selected="True" rename="Right_Right_MntWines" input="Right_" />
+                <SelectField field="Right_Right_NumCatalogPurchases" selected="True" rename="Right_Right_NumCatalogPurchases" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="918" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>&gt;</Operator>
+            <Field>Source_Income</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-10-07 08:52:56</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2025-10-07 08:52:56</StartDate>
+              <EndDate>2025-10-07 08:52:56</EndDate>
+              <Operand>50000</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Source_Income] &gt; "50000"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Alteryx\Engine_4276_24843f942e0a49ac9c019737f1552b86_\Engine_4276_94161be9915f4401812db08a7d847996~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\DELL\AppData\Local\Temp\Alteryx\Engine_4276_24843f942e0a49ac9c019737f1552b86_\Engine_4276_90f2d062a3c44a08b07f0eb58755f82b~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="9" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="True" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Superstore_workflow71</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="f2ba6fc4-b6a1-4bd8-ba75-b4249e0020b2" />
+      <Telemetry>
+        <PreviousWorkflowId value="9c019ca9-8bf5-493d-b866-418b6ea273ed" />
+        <OriginWorkflowId value="9c019ca9-8bf5-493d-b866-418b6ea273ed" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
